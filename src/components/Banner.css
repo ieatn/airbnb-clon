@@ -1,0 +1,29 @@
+.banner {
+    background: url('https://news.airbnb.com/wp-content/uploads/sites/4/2019/02/Soak-up-the-Magic-of-a-Skiers%E2%80%99-Paradise-Facing-Mont-Blanc-.jpg') center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+}
+.banner-info {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1rem;
+    gap: 1rem;
+    padding-top: 6rem;
+    padding-left: 2rem;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

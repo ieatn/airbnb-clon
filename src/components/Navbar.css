@@ -5,12 +5,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3rem;
+    padding: 3rem;
 }
 .searchBar {
     width: 300px;
     height: 40px;
-    border: none;
     border-radius: 25px;
 }
 .nav-right {
