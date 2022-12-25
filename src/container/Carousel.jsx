@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import './carousel.css'
+import './Carousel.css'
 
 export default function Carousel() {
   return (

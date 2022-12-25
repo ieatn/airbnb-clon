@@ -1,4 +1,6 @@
 .carousel {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+    padding: 0 3rem;
 }
