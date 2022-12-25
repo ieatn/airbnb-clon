@@ -12,7 +12,15 @@ nav {
     height: 40px;
     border-radius: 25px;
 }
-.nav-right {
+.nav-middle {
     display: flex;
-    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
