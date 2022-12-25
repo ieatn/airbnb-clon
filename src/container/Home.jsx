@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import Banner from '../components/Banner'
 import Carousel from './Carousel'
+import Button from '@mui/material/Button';
 
+export default function Home() {
+  const [date, setDate] = useState(false)
 
-const Home = () => (
-  <div className='home'>
-    <button>Search dates</button>
-    <Banner />
-    <Carousel />
+  return (
+    <div className='home'>
+      <Button onClick={() => setDate(!date)} variant="outlined">{date ? 'Hide': 'Search Dates'}</Button>
+      <Banner />
+      <Carousel />
   </div>
-)
-export default Home
+  )
+}
