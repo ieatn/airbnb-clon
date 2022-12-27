@@ -1,0 +1,34 @@
+.result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.result-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result-left img {
+    border-radius: 5px;
+    width: 400;
+    height: 200px;
+}
+.result:hover {
+    opacity: 0.8;
+}
+.result-body {
+    display: grid;
+    place-items: left;
+    gap: 1rem;
+    padding: 2rem;
+}
+.result-right {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.star {
+    display: flex;
+    align-items: center;
+}
